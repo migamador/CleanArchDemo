@@ -7,7 +7,7 @@ namespace CleanArch.Application.AutoMapper
 {
     public class AutoMapperConfiguration
     {
-        public static MapperConfiguration RegisterMapping()
+        public static MapperConfiguration RegisterMappings()
         {
             return new MapperConfiguration(cfg =>
             {
